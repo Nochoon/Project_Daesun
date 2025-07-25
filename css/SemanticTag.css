@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  width: 1280px;
+  height: 100px;
+  background-color: yellow;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.header .nav .gnb {
+  display: flex;
+  column-gap: 20px; /* 좌우 간격 조절 */
+}
+
+.header .util {
+  display: flex;
+  gap: 16px;
+}
+
+.main_visual {
+  height: 100vh; /* 브라우저 보여지는 높이 전체 */
+  /* height: 50vh; /* 브라우저 보여지는 높이 반 */
+}
+
+.main_visual img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main .section-01 {
+  width: 1280px;
+  margin: 160px auto;
+}
+
+.main .section-01 .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .section-01 .list .item {
+  width: 400px;
+}
+
+.main .section-01 .list .item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.main .section-02 {
+  width: 1280px;
+  margin: 160px 0;
+}
+
+.main .section-02 h2 {
+  text-align: center;
+}
+.main .section-02 .list {
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+.main .section-02 .list .item {
+  background-color: #0ea66e;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #99a60e;
+  padding: 80px;
+  text-align: center;
+}
